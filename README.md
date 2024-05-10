@@ -73,7 +73,7 @@ User endpoints are hosted in Redis, while files and user data is hosted in Mongo
 
 ## Challenges in Development and Future Features
 
-Developing this project was quite interesting and an incredible learning experience. It had some interesting challenges concerning the use of several different technologies. On of its toughest parts had to do with the correct codification of images in order to allowing for a correct transmission of data through the HTTP protocol.
+Developing this project was quite interesting and an incredible learning experience. It had some interesting challenges concerning the use of several different technologies. One of its toughest parts had to do with the correct codification of images in order to allowing for a correct transmission of data through the HTTP protocol.
 
 In regards to future features, it would be interesting to change the authentication system. Right now, the application keeps track of user's session by saving the authentication token in Redis, but a system such as JWT would be more appropriate for having a RESTful API, and decoupling its operations completely from the client.
 
@@ -83,8 +83,8 @@ In regards to future features, it would be interesting to change the authenticat
 
 🎯 I have experience developing both back end and front end. I have used technologies such as Bootstrap, SASS, React, Flask, Django, Express, SQL, MongoDB, AWS, among others.
 
-🎯 I also studied Sound Engineering some years ago, and I love music, videogames, and audiovisual media.
+🎯 I also studied  Computer Science some years ago, and I love studying, football, and travelling..
 
-🔹 [LinkedIn](https://www.linkedin.com/in/jhoan-stiven-zamora-caicedo/)
+🔹 [LinkedIn](https://www.linkedin.com/in/ibrahim-uzairu-14b2aa230/)
 
-🔹 [Twitter](https://twitter.com/JhoanZamora10)
+🔹 [Twitter](https://twitter.com/IbrahimUzairu2))
