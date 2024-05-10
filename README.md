@@ -81,9 +81,9 @@ In regards to future features, it would be interesting to change the authenticat
 
 🎯 I am a Fullstack developer in love with technology and keen to learn new things everyday. My strenghts reside in Python and JavaScript although I am not afraid to take on any other language.
 
-🎯 I have experience developing both back end and front end. I have used technologies such as Bootstrap, SASS, React, Flask, Django, Express, SQL, MongoDB, AWS, among others.
+🎯 I have experience developing both back end and front end. I have used technologies such as React, Flask, Django, Express, SQL, MongoDB, AWS, among others.
 
-🎯 I also studied  Computer Science some years ago, and I love studying, football, and travelling..
+🎯 I also studied  Computer Science some years ago, and I love studying, football, and traveling.
 
 🔹 [LinkedIn](https://www.linkedin.com/in/ibrahim-uzairu-14b2aa230/)
 
