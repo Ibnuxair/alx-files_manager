@@ -72,8 +72,7 @@ class FilesController {
 
     if (validationError) return response.status(400).send({ error: validationError });
 
-    if (fileParams.parentId !== 0 && !basicUtils.isValidId(fileParams.parentId))
-      return response.status(400).send({ error: 'Parent not found' });
+    if (fileParams.parentId !== 0 && !basicUtils.isValidId(fileParams.parentId)) return response.status(400).send({ error: 'Parent not found' });
 
     const { error, code, newFile } = await fileUtils.saveFile(
       userId,
@@ -117,8 +116,7 @@ class FilesController {
     if (!user) return response.status(401).send({ error: 'Unauthorized' });
 
     // Mongo Condition for Id
-    if (!basicUtils.isValidId(fileId) || !basicUtils.isValidId(userId))
-      return response.status(404).send({ error: 'Not found' });
+    if (!basicUtils.isValidId(fileId) || !basicUtils.isValidId(userId)) return response.status(404).send({ error: 'Not found' });
 
     const result = await fileUtils.getFile({
       _id: ObjectId(fileId),
@@ -167,8 +165,7 @@ class FilesController {
     if (Number.isNaN(page)) page = 0;
 
     if (parentId !== 0 && parentId !== '0') {
-      if (!basicUtils.isValidId(parentId))
-	return response.status(401).send({ error: 'Unauthorized' });
+      if (!basicUtils.isValidId(parentId)) return response.status(401).send({ error: 'Unauthorized' });
 
       parentId = ObjectId(parentId);
 
